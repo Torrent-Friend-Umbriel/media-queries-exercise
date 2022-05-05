@@ -126,7 +126,7 @@
 
     .header-img img {
         height: auto;
-        width: auto;
+        width: 95vw;
         max-width: 95vw;
         max-height: 100%;
         display: flex;
