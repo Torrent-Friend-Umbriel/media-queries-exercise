@@ -79,6 +79,11 @@
         width: 90vw;
         text-align: left;
         font-size: .9em;
+        margin-top: 10em;
+    }
+
+    #social-media-links {
+        display: none;
     }
 }
 
@@ -167,5 +172,21 @@
         text-align: left;
         font-size: .9em;
         margin: 25em 0 0 0;
+    }
+    #social-media-links {
+        display: flex;
+        flex-direction: row;
+        margin: 1em 0 0 auto;
+        align-items: center;
+    }
+    #social-media-links ul li {
+        margin: 0 1em;
+    }
+    #social-media-links ul li a {
+        color: black;
+    }
+
+    #social-media-links ul li a:hover {
+        color: blue;
     }
 }
