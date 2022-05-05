@@ -47,10 +47,6 @@
         margin: .5em 0;
     }
 
-    .header-img {
-
-    }
-
     .header-img img {
         height: auto;
         width: auto;
@@ -86,6 +82,7 @@
         display: none;
     }
 }
+
 
 @media screen and (min-width: 500.1px) {
     .alert-info {
@@ -173,20 +170,5 @@
         font-size: .9em;
         margin: 25em 0 0 0;
     }
-    #social-media-links {
-        display: flex;
-        flex-direction: row;
-        margin: 1em 0 0 auto;
-        align-items: center;
-    }
-    #social-media-links ul li {
-        margin: 0 1em;
-    }
-    #social-media-links ul li a {
-        color: black;
-    }
 
-    #social-media-links ul li a:hover {
-        color: blue;
-    }
 }
